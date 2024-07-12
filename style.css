@@ -1,0 +1,135 @@
+*
+{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+html,body{
+width:100%;
+height:100%;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.left{
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid grey;
+
+}
+.left>.back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.back>i{
+    font-size: 150%;
+}
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.search>i{
+    font-size: 120%;
+    color: white;
+}
+.right>.find{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.find>input{
+    width: 40%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.find>input::placeholder{
+
+    font-size: 170%;
+}
+main{
+    margin-top: 3%;
+    margin-left: 10%;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    
+    
+}
+.leftest{
+    width: 35%;
+    height: 100%;
+    
+   
+    gap: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.leftest::-webkit-scrollbar{
+    display: none;
+}
+.leftest>.box{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+    margin: 10px;
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+
+}
+.box>.last{
+    width: 100%;
+    height: 20%;
+}
+.last>button{
+    width: 30%;
+    height: 100%;
+}
+.rightest{
+    width: 70%;
+    height: 99%;
+}
+.rightest>iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
